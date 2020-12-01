@@ -17,7 +17,7 @@ public class _GoogleSearchPageTest {
 
     @Before
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver", "<path to chrome driver>");
+        System.setProperty("webdriver.chrome.driver", "chrome_driver/chromedriver.exe");
         driver = new ChromeDriver();
     }
 
